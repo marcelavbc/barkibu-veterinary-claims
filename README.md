@@ -88,7 +88,7 @@ To tackle the automation of the veterinary claims process, we can break down the
 ## 3. System Design
 The architecture focuses on modularity, auditability, and ease of human oversight. The system is composed of several services and components that interact to process a claim end-to-end.
 
-### Components Overview
+**Components Overview**
 **1. Claims Intake API**
 * Receives user-submitted documents from the mobile app.
 * Associates them with the correct policy and pet profile.
