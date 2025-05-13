@@ -89,6 +89,7 @@ To tackle the automation of the veterinary claims process, we can break down the
 The architecture focuses on modularity, auditability, and ease of human oversight. The system is composed of several services and components that interact to process a claim end-to-end.
 
 **Components Overview**
+
 **1. Claims Intake API**
 * Receives user-submitted documents from the mobile app.
 * Associates them with the correct policy and pet profile.
@@ -241,7 +242,7 @@ To align with the overall architecture and phased delivery, here’s how the fro
 
 **Phase 1: Foundation (Months 1–3)**
 
-*Focus: MVP claims submission experience*
+**Focus: MVP claims submission experience**
 * Build a multi-step form to upload invoice and vet report documents
 * Integrate with the initial API endpoints (document upload & basic OCR results)
 * Add inline file validation and UX feedback
