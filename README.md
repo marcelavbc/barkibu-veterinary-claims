@@ -242,7 +242,7 @@ To align with the overall architecture and phased delivery, here’s how the fro
 
 **Phase 1: Foundation (Months 1–3)**
 
-**Focus: MVP claims submission experience**
+*Focus: MVP claims submission experience*
 * Build a multi-step form to upload invoice and vet report documents
 * Integrate with the initial API endpoints (document upload & basic OCR results)
 * Add inline file validation and UX feedback
@@ -250,6 +250,7 @@ To align with the overall architecture and phased delivery, here’s how the fro
 * Show a claim confirmation screen with estimated review time
 
 **Phase 2: Core Automation (Months 4–6)**
+
 *Focus: Visibility and interaction with automated decisions*
 * Introduce claim status tracker with real-time updates (polling or WebSocket)
 * Visualize structured data extracted from documents for user review
@@ -257,6 +258,7 @@ To align with the overall architecture and phased delivery, here’s how the fro
 * Begin work on vet review dashboard with table layout for flagged cases
 
 **Phase 3: Advanced Features (Months 7–9)**
+
 *Focus: Advanced review tools and personalization*
 * Complete vet dashboard with document viewer, comments, and override actions
 * Enable manual claim adjustment interface
@@ -264,6 +266,7 @@ To align with the overall architecture and phased delivery, here’s how the fro
 * Show coverage breakdown and waiting period explanations to the user
 
 **Phase 4: Refinement and UX Enhancements (Months 10–12)**
+
 *Focus: Speed, accessibility, and polish*
 * Performance improvements (lazy loading, code splitting)
 * Accessibility (ARIA roles, keyboard nav, screen reader support)
